@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+* {
+    box-sizing: border-box;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;700&display=swap');
+  h1{
+      text-align: center;
+      font-family: 'Kaisei Decol', serif;
+      font-weight: 700px;
+  }
+label { 
+    padding: 12px 12px 12px 0;
+  display: inline-block;
+    margin: 5px;
+    font-family: 'Kaisei Decol', serif;
+    font-weight: 400px;
 }
+p {
+    font-family: 'Kaisei Decol', serif;
+    text-align: center;
+    color:red;
+    font-weight: bold;
+}
+hr {
+    opacity: 0.7;
+    margin: 20px 0px ;
+}
+input{
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin :10px 0px  0px  10px;}
+form div input{
+  justify-content: center;
+}
+.container {
+    width: 60%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+  }
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
